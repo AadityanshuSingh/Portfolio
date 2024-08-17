@@ -30,9 +30,10 @@ const projects = [
     iconBg: "#E6DEDD",
     date: "Jan 2024 - June 2024",
     points: [
-      "Developed Socio Sync, a full stack MERN-based web application, providing users with a secure social media platform and implemented JWT authentication to ensure a safe user environment.",
-      "Integrated real-time chatting with Socket.io and managed media uploads via Cloudinary, allowing users to share photos, videos, and audio. Enhanced user engagement with features like emoji support and friend requests.",
-      "Utilized Redux Toolkit for efficient state managementand designed the user interface with Chakra UI.",
+      "Utilized MERN stack, incorporating RESTful APIs to perform CRUD operations and JWT for user authentication",
+      "Integrated real-time chat functionality using Socket.IO , harnessing its low-latency Web-Socket based library",
+      "Utilized WebSocket protocols and the concept of Socket.IO rooms to reduce database calls, improving efficiency",
+      "Used Redux Toolkit for efficient state management, Cloudinary for media management and Chakra UI for styling",
     ],
   },
   {
@@ -41,9 +42,10 @@ const projects = [
     iconBg: "#E6DEDD",
     date: "June 2024",
     points: [
-      "Developed PathFinder, a React-based application that visualizes various pathfinding algorithms, including Dijkstra's Algorithm, A* Algorithm, BFS, and DFS, aiding users in understanding algorithm behavior.",
-      "Implemented interactive grid features allowing users to generate and editwalls and weights and create random mazes using Recursive Division, ensuring all mazes are solvable.",
-      "Designed a responsive UI and implemented interactive options to create random weighted mazes and adjust their weight density, thus enhancing the user experience and engagement.",
+      "Created a React application to demonstrate the working and visualization of various graph based algorithms",
+      "Used DOM manipulation with Redux Toolkit for state management and utilized timeout functions for visualization",
+      "Implemented algorithms like BFS, DFS, Dijkstra and A Star in javascript and used chakraUI for styling",
+      "Utilized Recursive Division to generate random solvable mazes for testing all algorithms",
     ],
   },
   {
